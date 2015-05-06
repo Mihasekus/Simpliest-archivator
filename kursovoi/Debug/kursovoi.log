@@ -1,0 +1,138 @@
+﻿Сборка начата 06.05.2015 22:32:12.
+     1>Проект "D:\kursovoi2-4\kursovoi\repository\kursovoi\kursovoi.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Uniter.cpp main.cpp
+         main.cpp
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.h(6): error C2143: синтаксическая ошибка: отсутствие ")" перед "<"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.h(6): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.h(6): error C2079: "vector" использует неопределенный class "Uniter"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.h(6): error C2059: синтаксическая ошибка: )
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.h(7): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.h(7): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         Uniter.cpp
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(18): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(18): error C2238: непредвиденные лексемы перед ";"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(19): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "path"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "real_bin_file"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(22): error C2061: синтаксическая ошибка: идентификатор "vector"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(30): error C2061: синтаксическая ошибка: идентификатор "string"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(32): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "get_file_name"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(32): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(32): error C2061: синтаксическая ошибка: идентификатор "string"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(33): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(35): warning C4183: get_file_name: отсутствие возвращаемого типа; предполагается функция-член, возвращающая "int"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(24): error C2065: vec: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(24): error C2228: выражение слева от ".size" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(24): error C2065: files: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(24): error C2228: выражение слева от ".assign" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(24): error C2228: выражение слева от ".begin" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(24): error C2228: выражение слева от ".end" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(25): error C2065: path: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(25): error C2065: p: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(26): error C2065: real_bin_file: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(26): error C2065: path: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(34): error C2065: fn: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(34): error C2228: выражение слева от ".substr" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(34): error C2228: выражение слева от ".find_last_of" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(34): error C2228: выражение слева от ".size" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(42): error C2065: basic_string: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(42): error C2062: тип "char" не требуется
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(43): error C2039: path: не является членом "Uniter"
+                 d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(15): см. объявление "Uniter"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(43): error C2228: выражение слева от ".c_str" должно представлять класс, структуру или объединение
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(44): error C2039: path: не является членом "Uniter"
+                 d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(15): см. объявление "Uniter"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(44): error C2228: выражение слева от ".c_str" должно представлять класс, структуру или объединение
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(46): error C2065: vector: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(46): error C2039: iterator: не является членом "`global namespace'"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(46): error C2065: iterator: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(46): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "itr"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(46): error C2065: itr: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(46): error C2039: files: не является членом "Uniter"
+                 d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(15): см. объявление "Uniter"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(46): error C2228: выражение слева от ".begin" должно представлять класс, структуру или объединение
+                 d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(15): см. объявление "Uniter"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(46): error C2228: выражение слева от ".end" должно представлять класс, структуру или объединение
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(46): error C2143: синтаксическая ошибка: отсутствие ")" перед "++"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(46): error C2059: синтаксическая ошибка: ;
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(46): error C2059: синтаксическая ошибка: )
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(48): error C2144: синтаксическая ошибка: перед "FILE" требуется "}"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(48): error C2144: синтаксическая ошибка: перед "FILE" требуется ";"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(48): error C2065: itr: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(48): error C2228: выражение слева от ".c_str" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(49): error C2043: недопустимый break
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(53): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "name"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(53): error C2065: name: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(53): error C2065: itr: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(59): error C2065: name: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(59): error C2228: выражение слева от ".c_str" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(61): error C2065: s_info: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(61): error C2228: выражение слева от ".append" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(62): error C2065: s_info: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(62): error C2228: выражение слева от ".append" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(63): error C2065: s_info: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(63): error C2228: выражение слева от ".append" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(63): error C2065: name: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(64): error C2065: s_info: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(64): error C2228: выражение слева от ".append" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(69): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(69): error C2065: s_info: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(69): error C2228: выражение слева от ".size" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(71): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(71): error C2365: _itoa: переопределение; предыдущим определением было "функция"
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(481): см. объявление "_itoa"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(71): error C2078: слишком много инициализаторов
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(72): error C2059: синтаксическая ошибка: if
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(73): error C2065: info: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(73): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(73): error C2365: fputs: переопределение; предыдущим определением было "функция"
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(221): см. объявление "fputs"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(73): error C2078: слишком много инициализаторов
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(74): error C2065: info: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(74): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(74): error C2365: fputs: переопределение; предыдущим определением было "функция"
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(221): см. объявление "fputs"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(74): error C2078: слишком много инициализаторов
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(75): error C2065: s_info: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(75): error C2228: выражение слева от ".c_str" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(75): error C2065: info: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(75): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(75): error C2365: fputs: переопределение; предыдущим определением было "функция"
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(221): см. объявление "fputs"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(77): error C2065: info: необъявленный идентификатор
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(77): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(77): error C2365: fclose: переопределение; предыдущим определением было "функция"
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(184): см. объявление "fclose"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(78): error C2059: синтаксическая ошибка: }
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(78): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(81): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(81): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(110): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "binary"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(110): error C2761: void Uniter::ToUnpack(void): повторное объявление функции не разрешается
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(110): error C2059: синтаксическая ошибка: )
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(111): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>d:\kursovoi2-4\kursovoi\repository\kursovoi\uniter.cpp(111): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         Создание кода...
+     1>Сборка проекта "D:\kursovoi2-4\kursovoi\repository\kursovoi\kursovoi.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:01.01
